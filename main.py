@@ -1,6 +1,7 @@
 from src import lottery
 
 if __name__ == '__main__':
+
     print('Hello World')
     tickets = lottery.generate_lottery_tickets(10)
     pulled_number = lottery.generate_lottery_ticket()
